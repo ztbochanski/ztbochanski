@@ -2,12 +2,12 @@
 
 Hi, I'm Zach, a software engineer. I'm currently building with rust 🦀
 
-- [My Website](https://zachsblog.netlify.app/)
-- [Resume](https://ztbochanski.github.io/ztbochanski/)
+- <a href="https://zachsblog.netlify.app/" target="_blank" rel="noopener noreferrer">My Website</a>
+- <a href="https://ztbochanski.github.io/ztbochanski/" target="_blank" rel="noopener noreferrer">Resume</a>
 
 ## Demo Products:
 
-- [NextJS Demo App](https://agw.vercel.app/)
+- <a href="https://agw.vercel.app/" target="_blank" rel="noopener noreferrer">NextJS Demo App</a>
 
 ## Overview
 
