@@ -1,0 +1,160 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.4;
+  color: #545f67;
+  max-width: 850px;
+  margin: 1rem auto;
+  padding: 0 1rem;
+  font-size: 0.9rem;
+}
+
+/* Typography */
+h1 {
+  font-size: 2rem;
+  color: #2f5276;
+  margin-bottom: 0.25rem;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #2f5276;
+  text-transform: uppercase;
+  margin: 1rem 0 0.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #2f5276;
+}
+
+/* Contact Info */
+.contact-info {
+  color: #787878;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.contact-info span:not(:last-child)::after {
+  content: " | ";
+}
+
+/* Content Sections */
+section {
+  margin-bottom: 1rem;
+}
+
+/* Lists */
+ul {
+  list-style-type: none;
+  padding-left: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+ul li {
+  position: relative;
+  margin-bottom: 0.25rem;
+  line-height: 1.3;
+}
+
+ul li::before {
+  content: "•";
+  position: absolute;
+  left: -0.8rem;
+  color: #2f5276;
+}
+
+/* Experience Items */
+article {
+  margin-bottom: 0.75rem;
+}
+
+article:last-child {
+  margin-bottom: 0;
+}
+
+.job-title {
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 0.1rem;
+}
+
+.company-info {
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.skills-grid div {
+  position: relative;
+  padding-left: 0.8rem;
+  line-height: 1.3;
+}
+
+.skills-grid div::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #2f5276;
+}
+
+/* Links */
+a {
+  color: #2f5276;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Summary Section */
+#summary p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Print Styles */
+@media print {
+  body {
+    margin: 0;
+    padding: 0.5in;
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+    margin-top: 0.75rem;
+  }
+
+  section {
+    margin-bottom: 0.75rem;
+  }
+
+  .skills-grid {
+    gap: 0.2rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #333333;
+  }
+
+  @page {
+    margin: 0.5in;
+  }
+}
