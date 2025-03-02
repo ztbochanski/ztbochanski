@@ -2,12 +2,12 @@
 
 Hi, I'm Zach, a software engineer. I'm currently building with rust 🦀
 
-- [My Website](https://zachsblog.netlify.app/)
-- [Resume](https://ztbochanski.github.io/ztbochanski/)
+- [My Website](https://zachsblog.netlify.app/) [[source]](https://github.com/ztbochanski/my-site)
+- [Resume](https://ztbochanski.github.io/ztbochanski/) [[source]](index)
 
 ## Demo Products:
 
-- [NextJS Demo App](https://agw.vercel.app/)
+- [NextJS Demo App](https://agw.vercel.app/) [[source]](https://github.com/ztbochanski/agw)
 
 ## Overview
 
