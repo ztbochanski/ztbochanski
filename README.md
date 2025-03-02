@@ -3,7 +3,7 @@
 Hi, I'm Zach, a software engineer. I'm currently building with rust 🦀
 
 - [My Website](https://zachsblog.netlify.app/) [[source]](https://github.com/ztbochanski/my-site)
-- [Resume](https://ztbochanski.github.io/ztbochanski/) [[source]](index)
+- [Resume](https://ztbochanski.github.io/ztbochanski/) [[source]](https://github.com/ztbochanski/ztbochanski/blob/main/index.html)
 
 ## Demo Products:
 
