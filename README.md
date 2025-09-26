@@ -5,10 +5,6 @@ Hi, I'm Zach, a software engineer. I'm currently building with rust 🦀
 - [My Website](https://zachsblog.netlify.app/) -> [[source code]](https://github.com/ztbochanski/my-site)
 - [Resume](https://ztbochanski.github.io/ztbochanski/) -> [[source markup]](https://github.com/ztbochanski/ztbochanski/blob/main/index.html)
 
-## Demo Products:
-
-- [NextJS Demo App](https://agw.vercel.app/) -> [[source code]](https://github.com/ztbochanski/agw)
-
 ## Overview
 
 - 👌 Encourage team and individual autonomy
